@@ -1,0 +1,27 @@
+.chocolate {
+  width: 100%;
+  height: 100%;
+  background-color: #9c5726;
+}
+.chocolate > img {
+  width: 100%;
+  height: 100%;
+}
+.chocolate > h4 {
+  color: #d2691e;
+  position: relative;
+  text-align: center;
+  bottom: 40px;
+}
+
+.teddya {
+  background-color: burlywood;
+}
+
+.hug {
+  background-color: royalblue;
+}
+
+.promise {
+  background-color: rosybrown;
+}

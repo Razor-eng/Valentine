@@ -1,0 +1,16 @@
+.teddy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.teddy img {
+  width: 70%;
+  height: 50%;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.teddy h3 {
+  font-size: 39px;
+}

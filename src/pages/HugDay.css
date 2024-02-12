@@ -1,0 +1,61 @@
+.hugDay {
+  background: url("/public/images/hbg.jpg") no-repeat;
+  background-size: calc(790px);
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-color: black;
+  filter: blur(0.6px);
+  z-index: 3;
+}
+.glow {
+  font-size: 25px;
+}
+.hugDay h3 {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  word-spacing: 4px;
+}
+
+.hugs {
+  margin-top: 10%;
+  margin-left: 20%;
+  display: flex;
+}
+.hugs img {
+  margin: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .hugDay {
+    background-size: cover;
+    width: 120vw;
+    height: 120vh;
+  }
+  .hugDay h3 {
+    font-size: 34px;
+    width: 70%;
+    top: 30%;
+    left: 50%;
+  }
+  .hugs {
+    flex-direction: column;
+    margin-top: 90%;
+  }
+  .hugDay img {
+    margin-left: 0;
+  }
+}
